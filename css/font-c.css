@@ -1,7 +1,7 @@
-@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap");
 
 :root {
-  --site-font: "LXGW WenKai","Kaiti SC","KaiTi","STKaiti",serif;
+  --site-font: "Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
   --code-font: "JetBrains Mono","Cascadia Mono","Consolas",monospace;
 }
 
