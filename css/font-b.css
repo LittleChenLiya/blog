@@ -1,0 +1,17 @@
+:root {
+  --site-font: "Microsoft YaHei UI","Microsoft YaHei","PingFang SC","Noto Sans SC","Source Han Sans SC","Heiti SC","SimHei",sans-serif;
+  --code-font: "JetBrains Mono","Cascadia Mono","Consolas",monospace;
+}
+
+body {
+  font-family: var(--site-font);
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-name, .post-title, .page-title {
+  font-family: var(--site-font);
+}
+
+code, pre, tt, kbd, samp {
+  font-family: var(--code-font);
+}

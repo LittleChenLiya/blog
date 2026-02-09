@@ -1,0 +1,37 @@
+:root {
+  --cursor-default: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='10' cy='10' r='6' fill='%23ff7aa2'/><circle cx='10' cy='10' r='2' fill='%23ffffff'/></svg>") 6 6, auto;
+  --cursor-pointer: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><path d='M16 2l3.6 7.3 8.1 1.2-5.9 5.7 1.4 8.1-7.2-3.8-7.2 3.8 1.4-8.1-5.9-5.7 8.1-1.2z' fill='%2368c3ff'/></svg>") 8 8, pointer;
+}
+
+body {
+  cursor: var(--cursor-default);
+}
+
+a, button, input, textarea, select, label, [role="button"] {
+  cursor: var(--cursor-pointer);
+}
+
+/* Soft content panel on non-home pages */
+body:not(.is-home):not(.home) #page .layout {
+  background: rgba(255, 255, 255, 0.78);
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(6px);
+}
+
+body:not(.is-home):not(.home) #page .layout .card-widget,
+body:not(.is-home):not(.home) #page .layout .recent-post-item,
+body:not(.is-home):not(.home) #page .layout .post,
+body:not(.is-home):not(.home) #page .layout .page,
+body:not(.is-home):not(.home) #page .layout #aside-content .card-widget {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+  body:not(.is-home):not(.home) #page .layout {
+    padding: 16px;
+    border-radius: 16px;
+  }
+}
