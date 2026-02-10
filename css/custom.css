@@ -18,12 +18,13 @@ a, button, input, textarea, select, label, [role="button"] {
 /* Rounded-rectangle logo in navbar */
 #nav .site-logo img,
 #nav .site-logo .site-logo-img {
-  border-radius: 12px;
-  width: 40px;
-  height: 28px;
-  object-fit: cover;
-  background: #fff;
-  padding: 2px;
+  border-radius: 14px !important;
+  width: 44px !important;
+  height: 28px !important;
+  object-fit: cover !important;
+  background: #fff !important;
+  padding: 2px !important;
+  display: block;
 }
 
 /* Soft content panel on non-home pages */
