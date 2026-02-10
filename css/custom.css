@@ -18,9 +18,16 @@ a, button, input, textarea, select, label, [role="button"] {
 /* Rounded-rectangle logo in navbar */
 #nav .nav-site-title,
 #nav #blog-info .nav-site-title {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
   gap: 8px;
+  flex-wrap: nowrap !important;
+  white-space: nowrap;
+}
+
+#nav #blog-info {
+  display: flex !important;
+  align-items: center !important;
 }
 
 #nav .site-logo img,
