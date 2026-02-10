@@ -27,10 +27,10 @@ a, button, input, textarea, select, label, [role="button"] {
 #nav .site-logo .site-logo-img,
 #nav .site-logo .site-icon,
 #nav .nav-site-title .site-icon {
-  width: 48px !important;
-  height: 30px !important;
+  width: 32px !important;
+  height: 32px !important;
   object-fit: cover !important;
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   overflow: hidden !important;
   background: #fff !important;
   padding: 2px !important;
