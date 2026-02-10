@@ -1,19 +1,19 @@
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.18/index.css");
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zcool-xiaowei@5.0.12/index.css");
 
 :root {
-  --site-font: "Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
+  --site-font: "ZCOOL XiaoWei","Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
   --code-font: "JetBrains Mono","Cascadia Mono","Consolas",monospace;
 }
 
-body {
-  font-family: var(--site-font);
+html, body {
+  font-family: var(--site-font) !important;
 }
 
 h1, h2, h3, h4, h5, h6,
 .site-name, .post-title, .page-title {
-  font-family: var(--site-font);
+  font-family: var(--site-font) !important;
 }
 
 code, pre, tt, kbd, samp {
-  font-family: var(--code-font);
+  font-family: var(--code-font) !important;
 }
