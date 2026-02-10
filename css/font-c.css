@@ -1,17 +1,33 @@
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/zcool-xiaowei@5.0.12/index.css");
+@font-face {
+  font-family: "LXGW WenKai";
+  src: url("/blog/fonts/LXGWWenKai-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  src: url("/blog/fonts/LXGWWenKai-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-  --site-font: "ZCOOL XiaoWei","Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
+  --site-font: "LXGW WenKai","Kaiti SC","KaiTi","STKaiti","Songti SC","SimSun",serif;
   --code-font: "JetBrains Mono","Cascadia Mono","Consolas",monospace;
 }
 
 html, body {
   font-family: var(--site-font) !important;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6,
 .site-name, .post-title, .page-title {
   font-family: var(--site-font) !important;
+  font-weight: 500;
 }
 
 code, pre, tt, kbd, samp {
